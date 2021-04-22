@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About me</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+              #profile{
+                border: solid;
+                border-radius: 100%;
+                border-width: 2px;
+                background-color: rgb(83, 13, 163);
+                width: 40%;
+                height: 40%;
+                margin-top: 60px;
+                margin-left: 60px;
+                margin-right: 5px;
+            }
+            .space{
+                display: flex;
+                justify-content: space-between;
+            }
+            body{
+                background-image: url(background/gif3.gif);
+                background-size: cover;
+            }
+            .details{
+                margin-top: 60px;
+                margin-right: 20px;
+                font-family: cursive;
+                color: rgb(231, 97, 19);
+            }
+            .me{
+                animation-name: color;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                text-align: center;
+                font-size: 30px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            @keyframes color {
+                33%{background-color: rgb(230, 190, 13);}
+                66%{background-color: rgb(11, 230, 11);}
+                100%{background-color: rgb(243, 74, 130);
+                    color: black;}
+                    }
+                    .extra{
+                        color: rgb(49, 17, 228);
+                    }
+        </style>
+    </head>
+    <body>
+        <div class="me">
+            <h1>About me</h1>
+        </div>
+        <br>
+        <div class="space">
+            <img id="profile" src="img2/a1.jpg">
+            <div class="details">
+                <h1>Hello, I'm Shreyas B Chandra</h1>
+                <br>
+                <h1 id="extra">I'm 14 years old, senior child scientist awarded by N.C.S.C (National Children Science Congress), State and National awardee. And also technical expert of Vineet Innovation World(VIW).</h1>
+            </div>
+    </body>
+</html>

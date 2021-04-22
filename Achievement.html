@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Achievement Gallery</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            .a{
+                width: 320px;
+                margin: 14px;
+            }
+            .b{
+                width: 320px;
+                margin: 14px;
+            }
+            .c{
+                width: 320px;
+                margin: 14px;
+            }
+            .d{
+                width: 320px;
+                margin: 14px;
+            }
+            .f{
+                width: 320px;
+                margin: 14px;
+            }
+            .g{
+                width: 320px;
+                margin: 14px;
+            }
+            .pics{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            @keyframes color {
+                33%{background-color: rgb(230, 190, 13);}
+                66%{background-color: rgb(11, 230, 11);}
+                100%{background-color: rgb(243, 74, 130);
+                    color: black;}
+            }
+            .head{
+                animation-name: color;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                text-align: center;
+                font-size: 30px;
+                font-family: cursive;
+            }
+            .down{
+                font-size: 20px;
+                font-family: fantasy;
+            }
+            body{
+                background-image: url(background/gif3.gif);
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <h1>
+                Achievement Gallery
+            </h1>
+        </div>
+        <div class="pics">
+            <div class="a">
+                <img src="img/a.jpg" width="320px" height="300px">
+
+            </div>
+            <div class="b">
+                <img src="img/b.jpg" width="320px" height="300px">
+            </div>
+            <div class="c">
+                <img src="img/c.jpg" width="320px" height="300px">
+            </div>
+            <div class="d">
+                <img src="img/d.jpg" width="320px" height="300px">
+            </div>  
+            <div class="f">
+                <img src="img/f.jpg" width="320px" height="300px">
+            </div>
+            <div class="g">
+                <img src="img/g.jpg" width="320px" height="300px">
+             </div>
+        </div>
+        <br>
+        <br>
+        <div class="down">
+            <h1>
+               <marquee>
+                   More Photos will added soon.
+               </marquee>
+            </h1>
+
+        </div>
+    </body>
+</html>
